@@ -1,0 +1,35 @@
+{
+  "bonus_stat": {
+    "sum": 4176383,
+    "min": 629,
+    "max": 4877,
+    "avg": 2906.3208072373
+  },
+  "title_stat": {
+    "6.9\" Samsung 64GB": 36,
+    "5.0\" Gigabyte 32GB": 38,
+    "6.9\" MSI 32GB": 63,
+    "6.8\" VIVO 144GB": 55,
+    "5.9\" IBM 16GB": 41,
+    "6.4\" Microsoft 112GB": 71,
+    "5.4\" MSI 176GB": 94,
+    "5.1\" Asus 144GB": 69,
+    "6.2\" iPhone 13 160GB": 70,
+    "5.9\" Blackberry 176GB": 29,
+    "6.3\" OCZ 240GB": 68,
+    "5.7\" Xiaomi Mi 80GB": 33,
+    "7.2\" Acer 192GB": 51,
+    "5.4\" OCZ 128GB": 54,
+    "7.4\" Acer 112GB": 92,
+    "7.1\" Lenovo 208GB": 91,
+    "6.1\" Texas Instruments 224GB": 51,
+    "5.9\" Samsung Note 208GB": 36,
+    "5.1\" Micron 144GB": 60,
+    "5.2\" NVIDIA 16GB": 78,
+    "5.0\" Dell 128GB": 59,
+    "6.1\" Sony 96GB": 41,
+    "6.6\" Lenovo 144GB": 42,
+    "5.9\" Western Digital 160GB": 43,
+    "5.4\" Qualcomm 64GB": 72
+  }
+}
