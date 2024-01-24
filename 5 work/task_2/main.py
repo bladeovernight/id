@@ -5,7 +5,7 @@ import pymongo
 
 def create_and_update_db():
 	objects = []
-	with open('task_2_item.msgpack', 'rb') as file:
+	with open('5 work/task_2/task_2_item.msgpack', 'rb') as file:
 		data = msgpack.unpack(file)
 
 	for item in data:

@@ -31,9 +31,9 @@ def insert_subitem(db,data):
     cursor = db.cursor()
 
     cursor.executemany("""
-        INSERT INTO subitem (chess_tour_id, place, prise) 
+        INSERT INTO subitem (id, place, prise) 
         VALUES(
-            (SELECT id from chess_tour WHERE name = :name),
+            (SELECT id from tournaments WHERE name = :name),
             :place, :prise)""", data)
 
     db.commit()
@@ -43,7 +43,7 @@ def name_2(db, name):
     res = cursor.execute("""
         SELECT * 
         FROM subitem
-        WHERE chess_tour_id = (SELECT id FROM chess_tour WHERE name = ?)                
+        WHERE id = (SELECT id FROM tournaments WHERE name = ?)                
          """, [name])
     items = []
     for row in res.fetchall():
@@ -63,7 +63,7 @@ def name_stat_2(db, name):
             MIN(prise) as min_prise, 
             MAX(prise) as max_prise
         FROM subitem
-        WHERE chess_tour_id = (SELECT id FROM chess_tour WHERE name = ?)  
+        WHERE id = (SELECT id FROM tournaments WHERE name = ?)  
 
          """, [name])
     items = []
@@ -79,8 +79,8 @@ def place_2(db):
     res = cursor.execute("""
         SELECT
             begin,
-            (SELECT COUNT(*) FROM subitem WHERE id = chess_tour_id) as place
-        FROM chess_tour
+            (SELECT COUNT(*) FROM subitem WHERE id = id) as place
+        FROM tournaments
         ORDER BY place DESC
         LIMIT 38             
          """)
@@ -93,16 +93,16 @@ def place_2(db):
     return items
 
 
-db = connect('4 work/task_2/first.db')
-name_2(db, "Алушта 1983")
-name_stat_2(db, "Алушта 1983")
+db = connect('4 work/task_2/2.db')
+name_2(db, "Биль 1961")
+name_stat_2(db, "Биль 1961")
 place_2(db)
 
 with open("name_2.json", 'w',  encoding="utf-8") as f:
-    f.write(json.dumps(name_2(db, 'Алушта 1983'), ensure_ascii=False))
+    f.write(json.dumps(name_2(db, 'Биль 1961'), ensure_ascii=False))
 
 with open("name_stat_2.json", 'w',  encoding="utf-8") as f:
-    f.write(json.dumps(name_stat_2(db, 'Алушта 1983'), ensure_ascii=False))
+    f.write(json.dumps(name_stat_2(db, 'Биль 1961'), ensure_ascii=False))
 
 with open("place_2.json", 'w',  encoding="utf-8") as f:
     f.write(json.dumps(place_2(db), ensure_ascii=False))

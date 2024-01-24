@@ -130,7 +130,7 @@ limit_2 = VAR + 15
 
 result = open_msgpack("4 work/task_3/task_3_var_38_part_1.msgpack") + open_js("4 work/task_3/task_3_var_38_part_2.json")
 
-db = connect_to_db("4 work/task_3/base_3")
+db = connect_to_db("4 work/task_3/3.db")
 insert_data(db, result)
 sorted_data(db, limit_1)
 describe_data(db)

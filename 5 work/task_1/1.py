@@ -26,7 +26,7 @@ def decode_csv(file_name1):
             items1.append(item)
     return items1
 
-file_name1 = "task_1_item.csv"
+file_name1 = "5 work/task_1/task_1_item.csv"
 items1 = decode_csv(file_name1)
 
 def insert_many(collection, items1):

@@ -4,35 +4,30 @@ import json
 
 
 def get_data(filename):
-    with open('4 work/task_1/task_1_var_38_item.pkl', mode='br') as file:
+    with open(filename, mode='br') as file:
         return pickle.load(file)
 
 
 def connect_to_db(filename):
     connection = sqlite3.connect(filename)
-    #connection.set_trace_callback(print)
     connection.row_factory = sqlite3.Row
     return connection
 
 
 def execute_query(db, query, params=[]):
     cursor = db.cursor()
-
     cursor.execute(query, params)
     data = cursor.fetchall()
-
     cursor.close()
     return data
 
 
 def insert_data(db, data):
     cursor = db.cursor()
-
     cursor.executemany("""
         insert into tournaments(id, name, city, begin, system, tours_count, min_rating, time_on_game)
         values(:id, :name, :city, :begin, :system, :tours_count, :min_rating, :time_on_game)""", data)
     db.commit()
-
     cursor.close()
 
 
@@ -51,7 +46,7 @@ def task1(db, filename, limit=48):
 
 
 def task2(db, filename):
-    query = 'select sum(min_rating) as sum, min(min_rating) as min, max(min_rating) as max, avg(min_rating) as avg from tournaments'
+    query = 'select sum(time_on_game) as sum, min(time_on_game) as min, max(time_on_game) as max, avg(time_on_game) as avg from tournaments'
     stats = execute_query(db, query).pop()
     result = dict(stats)
 
@@ -68,7 +63,7 @@ def task3(db, filename):
 
 
 def task4(db, filename, rating, limit=48):
-    query = 'select * from tournaments where time_on_game > ? order by min_rating desc limit ?'
+    query = 'select * from tournaments where min_rating > ? order by begin desc limit ?'
     params = [rating, limit]
     filtered_data = execute_query(db, query, params)
     result = [dict(row) for row in filtered_data]
@@ -80,7 +75,7 @@ data = get_data('4 work/task_1/task_1_var_38_item.pkl')
 connection = connect_to_db('4 work/task_1/1.db')
 insert_data(connection, data)
 
-task1(connection, 'ordered_by_tours.json')
-task2(connection, 'rating_stats.json')
+task1(connection, 'ordered_by_tours_count.json')
+task2(connection, 'time_on_game_stats.json')
 task3(connection, 'grouped_by_city.json')
-task4(connection, 'filtered_by_rating.json', 100)
+task4(connection, 'filtered_by_rating.json', 2400)

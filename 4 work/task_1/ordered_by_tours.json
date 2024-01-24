@@ -1,0 +1,482 @@
+[
+    {
+        "id": 870448,
+        "name": "Политика 1980",
+        "city": "Санкт-Петербург",
+        "begin": 26.02,
+        "system": "Olympic",
+        "tours_count": 15,
+        "min_rating": 2286,
+        "time_on_game": 140
+    },
+    {
+        "id": 870448,
+        "name": "Политика 1980",
+        "city": "Санкт-Петербург",
+        "begin": 26.02,
+        "system": "Olympic",
+        "tours_count": 15,
+        "min_rating": 2286,
+        "time_on_game": 140
+    },
+    {
+        "id": 870448,
+        "name": "Политика 1980",
+        "city": "Санкт-Петербург",
+        "begin": 26.02,
+        "system": "Olympic",
+        "tours_count": 15,
+        "min_rating": 2286,
+        "time_on_game": 140
+    },
+    {
+        "id": 870448,
+        "name": "Политика 1980",
+        "city": "Санкт-Петербург",
+        "begin": 26.02,
+        "system": "Olympic",
+        "tours_count": 15,
+        "min_rating": 2286,
+        "time_on_game": 140
+    },
+    {
+        "id": 809215,
+        "name": "Турнир претендентов 2010",
+        "city": "Кордова",
+        "begin": 11.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2417,
+        "time_on_game": 156
+    },
+    {
+        "id": 829364,
+        "name": "Гран-при ФИДЕ 1973",
+        "city": "Лас-Росас",
+        "begin": 10.06,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2618,
+        "time_on_game": 89
+    },
+    {
+        "id": 775880,
+        "name": "Лондон 2018",
+        "city": "Минск",
+        "begin": 28.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2570,
+        "time_on_game": 114
+    },
+    {
+        "id": 602367,
+        "name": "Sinquefield Cup 1960",
+        "city": "Краков",
+        "begin": 25.02,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2293,
+        "time_on_game": 61
+    },
+    {
+        "id": 475838,
+        "name": "Пальма 2019",
+        "city": "Вроцлав",
+        "begin": 17.06,
+        "system": "Swiss",
+        "tours_count": 14,
+        "min_rating": 2457,
+        "time_on_game": 150
+    },
+    {
+        "id": 815086,
+        "name": "Тилбург 2023",
+        "city": "Краков",
+        "begin": 20.01,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2301,
+        "time_on_game": 171
+    },
+    {
+        "id": 826486,
+        "name": "Пальма 1978",
+        "city": "Ереван",
+        "begin": 24.02,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2646,
+        "time_on_game": 118
+    },
+    {
+        "id": 809215,
+        "name": "Турнир претендентов 2010",
+        "city": "Кордова",
+        "begin": 11.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2417,
+        "time_on_game": 156
+    },
+    {
+        "id": 829364,
+        "name": "Гран-при ФИДЕ 1973",
+        "city": "Лас-Росас",
+        "begin": 10.06,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2618,
+        "time_on_game": 89
+    },
+    {
+        "id": 775880,
+        "name": "Лондон 2018",
+        "city": "Минск",
+        "begin": 28.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2570,
+        "time_on_game": 114
+    },
+    {
+        "id": 602367,
+        "name": "Sinquefield Cup 1960",
+        "city": "Краков",
+        "begin": 25.02,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2293,
+        "time_on_game": 61
+    },
+    {
+        "id": 475838,
+        "name": "Пальма 2019",
+        "city": "Вроцлав",
+        "begin": 17.06,
+        "system": "Swiss",
+        "tours_count": 14,
+        "min_rating": 2457,
+        "time_on_game": 150
+    },
+    {
+        "id": 815086,
+        "name": "Тилбург 2023",
+        "city": "Краков",
+        "begin": 20.01,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2301,
+        "time_on_game": 171
+    },
+    {
+        "id": 826486,
+        "name": "Пальма 1978",
+        "city": "Ереван",
+        "begin": 24.02,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2646,
+        "time_on_game": 118
+    },
+    {
+        "id": 809215,
+        "name": "Турнир претендентов 2010",
+        "city": "Кордова",
+        "begin": 11.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2417,
+        "time_on_game": 156
+    },
+    {
+        "id": 829364,
+        "name": "Гран-при ФИДЕ 1973",
+        "city": "Лас-Росас",
+        "begin": 10.06,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2618,
+        "time_on_game": 89
+    },
+    {
+        "id": 775880,
+        "name": "Лондон 2018",
+        "city": "Минск",
+        "begin": 28.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2570,
+        "time_on_game": 114
+    },
+    {
+        "id": 602367,
+        "name": "Sinquefield Cup 1960",
+        "city": "Краков",
+        "begin": 25.02,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2293,
+        "time_on_game": 61
+    },
+    {
+        "id": 475838,
+        "name": "Пальма 2019",
+        "city": "Вроцлав",
+        "begin": 17.06,
+        "system": "Swiss",
+        "tours_count": 14,
+        "min_rating": 2457,
+        "time_on_game": 150
+    },
+    {
+        "id": 815086,
+        "name": "Тилбург 2023",
+        "city": "Краков",
+        "begin": 20.01,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2301,
+        "time_on_game": 171
+    },
+    {
+        "id": 826486,
+        "name": "Пальма 1978",
+        "city": "Ереван",
+        "begin": 24.02,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2646,
+        "time_on_game": 118
+    },
+    {
+        "id": 809215,
+        "name": "Турнир претендентов 2010",
+        "city": "Кордова",
+        "begin": 11.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2417,
+        "time_on_game": 156
+    },
+    {
+        "id": 829364,
+        "name": "Гран-при ФИДЕ 1973",
+        "city": "Лас-Росас",
+        "begin": 10.06,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2618,
+        "time_on_game": 89
+    },
+    {
+        "id": 775880,
+        "name": "Лондон 2018",
+        "city": "Минск",
+        "begin": 28.03,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2570,
+        "time_on_game": 114
+    },
+    {
+        "id": 602367,
+        "name": "Sinquefield Cup 1960",
+        "city": "Краков",
+        "begin": 25.02,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2293,
+        "time_on_game": 61
+    },
+    {
+        "id": 475838,
+        "name": "Пальма 2019",
+        "city": "Вроцлав",
+        "begin": 17.06,
+        "system": "Swiss",
+        "tours_count": 14,
+        "min_rating": 2457,
+        "time_on_game": 150
+    },
+    {
+        "id": 815086,
+        "name": "Тилбург 2023",
+        "city": "Краков",
+        "begin": 20.01,
+        "system": "Olympic",
+        "tours_count": 14,
+        "min_rating": 2301,
+        "time_on_game": 171
+    },
+    {
+        "id": 826486,
+        "name": "Пальма 1978",
+        "city": "Ереван",
+        "begin": 24.02,
+        "system": "circular",
+        "tours_count": 14,
+        "min_rating": 2646,
+        "time_on_game": 118
+    },
+    {
+        "id": 893048,
+        "name": "Гран-при ФИДЕ 1984",
+        "city": "Подгорица",
+        "begin": 13.05,
+        "system": "Olympic",
+        "tours_count": 13,
+        "min_rating": 2592,
+        "time_on_game": 18
+    },
+    {
+        "id": 918086,
+        "name": "Европа 1966",
+        "city": "Сория",
+        "begin": 15.07,
+        "system": "circular",
+        "tours_count": 13,
+        "min_rating": 2254,
+        "time_on_game": 115
+    },
+    {
+        "id": 574597,
+        "name": "Хогевен 2024",
+        "city": "Овьедо",
+        "begin": 14.04,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2435,
+        "time_on_game": 136
+    },
+    {
+        "id": 658718,
+        "name": "Пойковский 2008",
+        "city": "Самора",
+        "begin": 14.04,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2333,
+        "time_on_game": 121
+    },
+    {
+        "id": 389440,
+        "name": "Линарес 1973",
+        "city": "Ла-Корунья",
+        "begin": 17.12,
+        "system": "circular",
+        "tours_count": 13,
+        "min_rating": 2370,
+        "time_on_game": 116
+    },
+    {
+        "id": 267563,
+        "name": "Хогевен 1994",
+        "city": "Москва",
+        "begin": 13.01,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2421,
+        "time_on_game": 40
+    },
+    {
+        "id": 893048,
+        "name": "Гран-при ФИДЕ 1984",
+        "city": "Подгорица",
+        "begin": 13.05,
+        "system": "Olympic",
+        "tours_count": 13,
+        "min_rating": 2592,
+        "time_on_game": 18
+    },
+    {
+        "id": 918086,
+        "name": "Европа 1966",
+        "city": "Сория",
+        "begin": 15.07,
+        "system": "circular",
+        "tours_count": 13,
+        "min_rating": 2254,
+        "time_on_game": 115
+    },
+    {
+        "id": 574597,
+        "name": "Хогевен 2024",
+        "city": "Овьедо",
+        "begin": 14.04,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2435,
+        "time_on_game": 136
+    },
+    {
+        "id": 658718,
+        "name": "Пойковский 2008",
+        "city": "Самора",
+        "begin": 14.04,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2333,
+        "time_on_game": 121
+    },
+    {
+        "id": 389440,
+        "name": "Линарес 1973",
+        "city": "Ла-Корунья",
+        "begin": 17.12,
+        "system": "circular",
+        "tours_count": 13,
+        "min_rating": 2370,
+        "time_on_game": 116
+    },
+    {
+        "id": 267563,
+        "name": "Хогевен 1994",
+        "city": "Москва",
+        "begin": 13.01,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2421,
+        "time_on_game": 40
+    },
+    {
+        "id": 893048,
+        "name": "Гран-при ФИДЕ 1984",
+        "city": "Подгорица",
+        "begin": 13.05,
+        "system": "Olympic",
+        "tours_count": 13,
+        "min_rating": 2592,
+        "time_on_game": 18
+    },
+    {
+        "id": 918086,
+        "name": "Европа 1966",
+        "city": "Сория",
+        "begin": 15.07,
+        "system": "circular",
+        "tours_count": 13,
+        "min_rating": 2254,
+        "time_on_game": 115
+    },
+    {
+        "id": 574597,
+        "name": "Хогевен 2024",
+        "city": "Овьедо",
+        "begin": 14.04,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2435,
+        "time_on_game": 136
+    },
+    {
+        "id": 658718,
+        "name": "Пойковский 2008",
+        "city": "Самора",
+        "begin": 14.04,
+        "system": "Swiss",
+        "tours_count": 13,
+        "min_rating": 2333,
+        "time_on_game": 121
+    }
+]
